@@ -1,13 +1,14 @@
 
 
 def loop_iterator(7)
-  i=0
+  i = 0
   loop do 
+    i += 1
     puts "Welcome to Flatiron School's Web Development Course!"
-    i+=1
     break if i == 7
   end
 end 
+
 
 
 
