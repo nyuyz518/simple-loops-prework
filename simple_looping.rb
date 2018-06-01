@@ -1,11 +1,11 @@
 
 
-def loop_iterator(7)
+def loop_iterator(n)
   i = 0
   loop do 
     i += 1
     puts "Welcome to Flatiron School's Web Development Course!"
-    break if i == 7
+    break if i == n
   end
 end 
 
